@@ -1,0 +1,143 @@
+/* Write your CSS here */
+
+.app-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.responsive-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto';
+}
+
+.appointment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.heading {
+  color: #171f46;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.label {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.input-element {
+  border-radius: 5px;
+  border: 1px solid #b5b7c4;
+  height: 30px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.app-image {
+  height: 250px;
+  width: 400px;
+}
+
+.separator {
+  width: 100%;
+  border: 1px solid #b5b7c4;
+}
+
+@media (max-width: 767px) {
+  .app-image {
+    display: none;
+  }
+}
+
+.stared-filter-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.appointment-heading {
+  color: #171f46;
+  width: 600px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+@media (max-width: 767px) {
+  .appointment-heading {
+    font-size: 20px;
+    width: 150px;
+  }
+}
+
+.filter-style {
+  background-color: transparent;
+  border: 1px solid #9897f0;
+  border-radius: 15px;
+  width: 80px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.filled-filter {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.filtered-List {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.empty-filter {
+  background-color: transparent;
+  color: #9897f0;
+}
